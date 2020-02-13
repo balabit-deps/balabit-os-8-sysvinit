@@ -1,0 +1,13 @@
+Description: Make mountpoint.c compile with new glibc.
+Author: Dimitri John Ledkov <xnox@ubuntu.com>
+
+--- sysvinit-2.88dsf.orig/src/mountpoint.c
++++ sysvinit-2.88dsf/src/mountpoint.c
+@@ -23,6 +23,7 @@
+  *		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+  */
+ 
++#include <sys/sysmacros.h>
+ #include <sys/stat.h>
+ #include <unistd.h>
+ #include <stdlib.h>

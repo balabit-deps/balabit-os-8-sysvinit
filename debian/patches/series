@@ -1,0 +1,6 @@
+11_run_nologin.patch
+fix-glibc.patch
+0002-Fix-FTBFS-on-kfreebsd-any.patch
+0003-Fix-formatting-of-bootlogd-8.patch
+0004-fix-manpage-typo.patch
+0005-workaround-gcc-lintian.patch
